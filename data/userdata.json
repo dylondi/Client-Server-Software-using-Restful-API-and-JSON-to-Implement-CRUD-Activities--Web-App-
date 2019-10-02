@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"data"},
+{"type":"table","name":"userdata","database":"data","data":
+[
+{"id":"1","date":"2019-05-07","name":"howye","url":"whatsih.com","description":"ouveh"},
+{"id":"2","date":"2019-05-07","name":"aihawdo","url":"boewdo","description":"obdwc"},
+{"id":"3","date":"2019-05-07","name":"oub","url":"ub","description":"ujb"},
+{"id":"4","date":"2019-05-07","name":"iubv","url":"wrdfgthj","description":"sdf"},
+{"id":"5","date":"2019-05-07","name":"ddd","url":"ddd","description":"ddd"},
+{"id":"7","date":"2019-05-07","name":"ihg","url":"gf","description":"utd"}
+]
+}
+]

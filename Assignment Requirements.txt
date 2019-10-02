@@ -1,0 +1,34 @@
+Create a single-page client app which does the following:
+1) Implements an online form to obtain user interaction data suitable for demonstrating full CRUD activity,
+
+2) Consumes a RESTful API, using jQuery for all API requests,
+
+3) Provides a visualisation that displays the results of the client-server interaction. You should assume that data exchanged between the client and server will be in JSON format. 
+
+4) A server app, developed in PHP, that implements a RESTful API interface, and which services the CRUD requests from your client app. You may utilise a database,
+   or local files, to store application data. All server-client data exchange should utilise JSON. 
+
+5) The app should provide the following features:
+
+a) Your RESTful client and service should work with a Reading List database (table, file, etc.). The database contains records with the following fields: ID (automatically generated), Date (creation date), Name (name of item in Reading List), URL (URL link for the reading list resource), and Description (Description of the resource), for example:
+ 
+
+"reading list item" : {
+"ID" : 12345,
+"theDate" : "10-04-2017",
+"name" : "JSON Examples",
+"URL" : "Some nice JSON examples from the official resource json.org
+}
+
+b) The "ID" should be automatically generated with the (C)RUD (create) request supplying the other information.
+
+c) "theDate" does not need to be specified as it should be computed automatically.
+
+d) You should provide three update CR(U)D (update) requests, one for each of the remaining data fields ("name", "URL" and "theDesc").
+
+e) You should provide two different C(R)UD (retrieve) request entry points, for example, "ID" and one other.
+
+f) Your CRU(D) (delete) request should delete records based on ID.
+ 
+
+NOTE: You do not need to perform any kind of authentication for the CRUD activities

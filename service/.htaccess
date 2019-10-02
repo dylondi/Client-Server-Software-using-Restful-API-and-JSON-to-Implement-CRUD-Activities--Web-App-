@@ -1,0 +1,3 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^userdata/?$ userdata.php [NC,L]
+RewriteRule ^userdata/([0-9]+)/?$ userdata.php?id=$1 [NC,L]
